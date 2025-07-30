@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariachi Tradición de Bogotá - Música para Eventos Inolvidables</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary-red: #D62C2C;
+      --color-primary-red-hover: #B22222;
+      --color-secondary-brown: #A07030;
+      --color-secondary-brown-hover: #8B5C25;
+      --color-background-soft: #fdfaf6;
+      --color-container-bg: #fffdfa;
+      --color-light-beige: #FFF8DC;
+      --color-dark-heading: #4A2C00;
+      --color-dark-text: #5C4033;
+      --color-urgency-bg: #FAEBD7;
+      --color-urgency-border: #A52A2A;
+      --color-urgency-text-dark: #8B0000;
+      --color-urgency-text-light: #B22222;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: var(--color-background-soft);
+    }
+
+    .cta-button {
+      background-color: var(--color-primary-red);
+      color: white;
+      padding: 1rem 2.5rem;
+      border-radius: 9999px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 15px rgba(214, 44, 44, 0.4);
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background-color: var(--color-primary-red-hover);
+    }
+
+    .cta-button.call-us {
+      background-color: var(--color-secondary-brown);
+      box-shadow: 0 4px 15px rgba(160, 112, 48, 0.4);
+    }
+    .cta-button.call-us:hover {
+      background-color: var(--color-secondary-brown-hover);
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .hero-section {
+      background-image: url('https://res.cloudinary.com/db89mw0tp/image/upload/Gemini_Generated_Image_5x2x815x2x815x2x_t1cjym');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    .hero-section > * {
+      position: relative;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div id="mariachi-landing-page" class="container mx-auto px-4 py-8">
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-16 md:py-24 text-white rounded-xl mb-8 shadow-lg">
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Mariachi Tradición de Bogotá:<br class="hidden md:block"> Tu Evento, Nuestra Pasión Inolvidable.</h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">Autenticidad y Emoción en Cada Nota para Celebraciones que Dejan Huella.</p>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
+        <a href="https://wa.me/573058604189" target="_blank" class="cta-button">¡Cotiza tu Mariachi Ahora!</a>
+        <span class="text-white font-bold text-xl mx-2">o</span>
+        <a href="tel:+573058604189" class="cta-button call-us">Llámanos</a>
+      </div>
+      <p class="mt-6 text-lg opacity-80">Más de 500 eventos exitosos y clientes felices.</p>
+    </section>
+
+    <!-- Video Section -->
+    <section class="mb-12 px-4">
+      <div class="max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
+        <div class="aspect-video relative w-full">
+          <iframe class="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/9AVVINu_aV0"
+            title="Mariachi Tradición de Bogotá en acción" frameborder="0" allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+      </div>
+      <p class="text-center text-gray-600 text-sm mt-2">Video: Mariachi Tradición de Bogotá tocando en un evento festivo</p>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="my-12 text-center">
+      <h2 class="text-3xl font-bold text-[color:var(--color-dark-heading)] mb-6">¿Por Qué Elegirnos?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-[color:var(--color-dark-heading)] mb-2">Profesionales con Pasión</h3>
+          <p class="text-[color:var(--color-dark-text)]">Más de 10 años llevando alegría a bodas, cumpleaños y eventos memorables de nuestros clientes.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-[color:var(--color-dark-heading)] mb-2">Repertorio Inolvidable</h3>
+          <p class="text-[color:var(--color-dark-text)]">Clásicos del mariachi, canciones modernas y peticiones especiales.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-[color:var(--color-dark-heading)] mb-2">Puntualidad y Presentación</h3>
+          <p class="text-[color:var(--color-dark-text)]">Siempre impecables y listos para emocionar desde el primer acorde.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paquetes -->
+            <section class="mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-10">
+                Nuestros Paquetes de Servicio
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Paquete 1 -->
+                <div class="flex flex-col justify-between text-center p-6 bg-white rounded-xl border border-gray-300 shadow-md min-h-[500px]">
+                <div>
+                    <h3 class="text-2xl font-bold text-red-700 mb-4">Serenata Express</h3>
+                    <p class="text-gray-600 mb-4">Ideal para sorpresas rápidas y emotivas entre semana.</p>
+                    <div class="text-4xl font-extrabold text-gray-900 mb-6">COP 170.000</div>
+                    <ul class="list-none p-0 mb-6 text-gray-700 space-y-2">
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        7 canciones + 2 canciones de obsequio
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Lunes a Jueves
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        4 Mariachis profesionales
+                    </li>
+                    </ul>
+                </div>
+                <a href="https://wa.me/573058604189" target="_blank" class="cta-button text-base px-6 py-3 mt-auto">
+                    Reserva ahora!
+                </a>
+                </div>
+
+                <!-- Paquete 2: Serenata Completa -->
+                <div class="flex flex-col justify-between text-center p-6 bg-white rounded-xl border border-gray-300 shadow-md min-h-[500px]">
+                <div>
+                    <h3 class="text-2xl font-bold text-red-700 mb-4">Serenata Completa</h3>
+                    <p class="text-gray-600 mb-4">Perfecto para cumpleaños, aniversarios y reuniones familiares entre semana.</p>
+                    <div class="text-4xl font-extrabold text-gray-900 mb-6">COP 200.000</div>
+                    <ul class="list-none p-0 mb-6 text-gray-700 space-y-2">
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        9 canciones + 2 canciones de obsequio
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Lunes a Jueves
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Recordatorio y Champagne o flores
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        4 Mariachis profesionales
+                    </li>
+                    </ul>
+                </div>
+                <a href="https://wa.me/573058604189" target="_blank" class="cta-button text-base px-6 py-3 mt-auto">
+                    Reserva ahora!
+                </a>
+                </div>
+                <!-- Paquete 3: Serenata Fines de Semana -->
+                <div class="flex flex-col justify-between text-center p-6 bg-white rounded-xl border border-gray-300 shadow-md min-h-[500px]">
+                <div>
+                    <h3 class="text-2xl font-bold text-red-700 mb-4">Serenata Fines de Semana</h3>
+                    <p class="text-gray-600 mb-4">Perfecto para cumpleaños, aniversarios y reuniones familiares.</p>
+                    <div class="text-4xl font-extrabold text-gray-900 mb-6">COP 220.000</div>
+                    <ul class="list-none p-0 mb-6 text-gray-700 space-y-2">
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        9 canciones + 2 canciones de obsequio
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Viernes, Sabados y Domingos
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Recordatorio y Champagne o flores
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        4 Mariachis profesionales
+                    </li>
+                    </ul>
+                </div>
+                <a href="https://wa.me/573058604189" target="_blank" class="cta-button text-base px-6 py-3 mt-auto">
+                    Reserva ahora!
+                </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Testimonios -->
+    <section class="content-container mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" style="color: var(--color-dark-heading);">
+                Lo que dicen nuestros clientes felices
+            </h2>
+            <div id="testimonials-container" class="flex overflow-x-auto space-x-8 pb-4 scrollbar-hide">
+                <!-- Testimonio 1 -->
+                <div class="p-6 rounded-lg shadow-sm flex-shrink-0 w-80 md:w-96" style="background-color: var(--color-light-beige);">
+                    <p class="italic mb-4 text-wrap" style="color: var(--color-dark-text);">"¡Mariachi Tradición de Bogotá hizo de mi boda un día inolvidable! La energía y el talento fueron excepcionales. Todos mis invitados quedaron fascinados."</p>
+                    <p class="font-semibold" style="color: var(--color-urgency-text-light);">- María P., Novia Feliz</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="p-6 rounded-lg shadow-sm flex-shrink-0 w-80 md:w-96" style="background-color: var(--color-light-beige);">
+                    <p class="italic mb-4 text-wrap" style="color: var(--color-dark-text);">"Contratamos para el cumpleaños de mi mamá y fue la mejor sorpresa. Su profesionalismo y alegría son contagiosos. ¡Los recomiendo al 100%!"</p>
+                    <p class="font-semibold" style="color: var(--color-urgency-text-light);">- Juan S., Cliente Satisfecho</p>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="p-6 rounded-lg shadow-sm flex-shrink-0 w-80 md:w-96" style="background-color: var(--color-light-beige);">
+                    <p class="italic mb-4 text-wrap" style="color: var(--color-dark-text);">"La música de Mariachi Tradición de Bogotá le dio un toque mágico a nuestra fiesta de quince años. ¡Simplemente espectaculares!"</p>
+                    <p class="font-semibold" style="color: var(--color-urgency-text-light);">- Sofía R., Quinceañera</p>
+                </div>
+                <!-- Testimonio 4 -->
+                <div class="p-6 rounded-lg shadow-sm flex-shrink-0 w-80 md:w-96" style="background-color: var(--color-light-beige);">
+                    <p class="italic mb-4 text-wrap" style="color: var(--color-dark-text);">"Profesionales de principio a fin. El show fue increíble y se adaptaron perfectamente a nuestras peticiones. ¡Volveremos a contratarlos sin duda!"</p>
+                    <p class="font-semibold" style="color: var(--color-urgency-text-light);">- Carlos G., Organizador de Eventos</p>
+                </div>
+                <!-- Testimonio 5 -->
+                <div class="p-6 rounded-lg shadow-sm flex-shrink-0 w-80 md:w-96" style="background-color: var(--color-light-beige);">
+                    <p class="italic mb-4 text-wrap" style="color: var(--color-dark-text);">"Cada canción fue una obra de arte. La pasión y el sentimiento que transmiten son inigualables. ¡Gracias por hacer de nuestro aniversario algo tan especial!"</p>
+                    <p class="font-semibold" style="color: var(--color-urgency-text-light);">- Ana M., Celebración de Aniversario</p>
+                </div>
+                <!-- Testimonio 6 -->
+                <div class="p-6 rounded-lg shadow-sm flex-shrink-0 w-80 md:w-96" style="background-color: var(--color-light-beige);">
+                    <p class="italic mb-4 text-wrap" style="color: var(--color-dark-text);">"La mejor elección para nuestra fiesta mexicana. La calidad musical y el carisma del grupo superaron todas nuestras expectativas. ¡Una noche para recordar!"</p>
+                    <p class="font-semibold" style="color: var(--color-urgency-text-light);">- Ricardo L., Fiesta Temática</p>
+                </div>
+                <!-- Testimonio 7 -->
+                <div class="p-6 rounded-lg shadow-sm flex-shrink-0 w-80 md:w-96" style="background-color: var(--color-light-beige);">
+                    <p class="italic mb-4 text-wrap" style="color: var(--color-dark-text);">"Su presentación fue el punto culminante de la noche. La energía que trajeron fue contagiosa y todos se levantaron a bailar. ¡Absolutamente fantásticos!"</p>
+                    <p class="font-semibold" style="color: var(--color-urgency-text-light);">- Laura V., Evento Corporativo</p>
+                </div>
+            </div>
+        </section>
+
+    <!-- Urgencia CTA -->
+    <section class="content-container text-center py-10" style="background-color: var(--color-urgency-bg); border-left: 4px solid var(--color-urgency-border);">
+        <h2 class="text-3xl md:text-4xl font-bold" style="color: var(--color-urgency-text-dark);">
+        ¡No dejes tu fecha para última hora!
+        </h2>
+        <p class="text-xl" style="color: var(--color-urgency-text-light);">
+        Nuestras fechas más populares se agotan rápidamente. ¡Asegura la música de tu evento hoy mismo!
+        </p>
+        <a href="https://wa.me/573058604189" target="_blank" class="cta-button mt-8">
+            ¡Consulta Disponibilidad Ahora!
+        </a>
+    </section>
+
+
+    <!-- Contacto -->
+   <section id="contact-info" class="content-container text-center py-10">
+            <h2 class="text-3xl md:text-4xl font-bold" style="color: var(--color-dark-heading);">
+                ¡Contáctanos Hoy Mismo!
+            </h2>
+            <p class="text-xl" style="color: var(--color-dark-text);">
+                Estamos listos para hacer de tu evento una celebración inolvidable.
+            </p>
+            <div class="space-y-4 mb-8">
+                <p class="text-lg" style="color: var(--color-dark-text);">
+                    <span class="font-semibold">Teléfono:</span> <a href="tel:+573058604189" style="color: var(--color-primary-red-hover);" class="hover:underline">+57 305 860 4189</a>
+                </p>
+                <p class="text-lg" style="color: var(--color-dark-text);">
+                    <span class="font-semibold">WhatsApp:</span> <a href="https://wa.me/573058604189" target="_blank" class="text-green-600 hover:underline">Envíanos un mensaje</a>
+                </p>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-sm text-gray-600 border-t mt-12">
+      <p>&copy; 2025 Mariachi Tradición de Bogotá. Todos los derechos reservados.</p>
+      <p class="mt-2">
+        <a href="#" class="text-red-600 hover:underline">Política de Privacidad</a> |
+        <a href="#" class="text-red-600 hover:underline">Términos y Condiciones</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const testimonialsContainer = document.getElementById('testimonials-container');
+      if (!testimonialsContainer) return;
+      let scrollAmount = 0;
+      const scrollSpeed = 1;
+      const intervalTime = 20;
+
+      function autoScroll() {
+        scrollAmount += scrollSpeed;
+        if (scrollAmount >= testimonialsContainer.scrollWidth - testimonialsContainer.clientWidth) {
+          scrollAmount = 0;
+        }
+        testimonialsContainer.scrollLeft = scrollAmount;
+      }
+
+      const checkOverflowAndStartScroll = () => {
+        if (testimonialsContainer.scrollWidth > testimonialsContainer.clientWidth) {
+          if (testimonialsContainer.autoScrollInterval) {
+            clearInterval(testimonialsContainer.autoScrollInterval);
+          }
+          testimonialsContainer.autoScrollInterval = setInterval(autoScroll, intervalTime);
+        } else {
+          if (testimonialsContainer.autoScrollInterval) {
+            clearInterval(testimonialsContainer.autoScrollInterval);
+            testimonialsContainer.autoScrollInterval = null;
+          }
+          testimonialsContainer.scrollLeft = 0;
+        }
+      };
+
+      checkOverflowAndStartScroll();
+      window.addEventListener('resize', checkOverflowAndStartScroll);
+    });
+  </script>
+</body>
+</html>
+
